@@ -9,6 +9,7 @@
     --primary-color: #2c3e50;
     --secondary-color: #3498db;
     --accent-color: #e74c3c;
+    --accent-color-dark: #c0392b;
     --text-color: #333;
     --light-bg: #ecf0f1;
     --white: #ffffff;
@@ -66,7 +67,7 @@ header {
     color: var(--secondary-color);
 }
 
-/* Hero Section */
+/* Hero Section - Main Landing Area */
 .hero {
     background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
     color: var(--white);
@@ -105,7 +106,7 @@ header {
 }
 
 .btn:hover {
-    background: #c0392b;
+    background: var(--accent-color-dark);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
